@@ -1,0 +1,33 @@
+img{
+   height: 130px;
+   border-radius: 6px;
+   margin-right: 50px;
+}
+.cont{
+    background-color: rgb(25, 25, 25)
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color: antiquewhite;
+    border-radius: 6px;
+    border:1px solid rgb(85, 84, 84);
+    padding: 26px;
+}
+body{
+    background-color:rgb(25, 25, 25) ;
+}
+button{
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(93, 93, 93);
+    border-radius: 6px;
+    width: 100px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(93, 93, 93);
+    border: 1px solid rgb(221, 219, 219);
+    color: antiquewhite;
+}
