@@ -16,7 +16,7 @@ exrLoader.load('poolbeg_4k.exr', (texture) => {
 const scene = new THREE.Scene();
 
 const rgbeLoader = new RGBELoader();
-rgbeLoader.load('my.hdr', (texture) => {
+rgbeLoader.load('poolbeg_2k.hdr', (texture) => {
   texture.mapping = THREE.EquirectangularReflectionMapping;
   scene.environment = texture;
   scene.background = texture; // Optional: shows the HDR as background
